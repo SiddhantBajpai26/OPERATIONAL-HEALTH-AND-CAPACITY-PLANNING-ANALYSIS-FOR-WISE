@@ -1,0 +1,52 @@
+Operational Analyst Case Study:-
+
+Description of the underlying data
+Provided with a randomised excerpt of 6 months worth of operational data totalling
+473,316 rows.
+Data is provided in Different Read file.
+In that dataset, you will be given the following information:
+● CASE_ID - This is a distinct ID for a new type of review that needs to be done and
+can comprise several PROCESSING_IDs. Think of it as one problem that might need
+several times coming back to.
+● HANDLING_TIME_START - This is the time when our operational associate started
+reviewing the case.
+● HANDLING_TIME_END - This is the time when our operational associate finished
+reviewing the case (does not mean the problem was solved but rather that the review
+at this time was completed).
+● ACTOR_ID - This is the identifier of a specific operational associate.
+● OPS_DECISION - This is the decision that was taken after the review by the
+operational associate.
+● CUSTOMER_ID - This is the distinct ID of a customer that was reviewed.
+● CASE_TYPE - This is the type of review that was done.
+● FINAL_STATE - This is the final/latest decision that has been taken over the
+CASE_ID.
+● PROCESSING_ID - this is the distinct ID of a review taken of the CASE_ID. It should
+be the primary key of your data.
+● CASE_CREATED_TIME - this is the time when the distinct CASE_ID was created
+and ended up in the operational batch, ready to be reviewed.
+Based on the information that you can get from the data, answer to the following
+questions by complementing your answers with meaningful diagrams and tables, as
+well as the description of your thought process:
+1. How would you rate the current operational health of the processing team? Why?
+2. How would you describe the current end customer experience taking into account our
+mission in Wise:
+“Money without borders - instant, convenient, transparent and eventually free. We’re
+powering money for people and businesses: to pay, to get paid, to spend, in any currency,
+wherever you are, whatever you’re doing.”
+3. What kind of red flags do you identify in either of the following aspects:
+a.) Agent performance
+b.) Efficiency
+4. A product team focused on growth comes to ask your advice on a roll-out plan for a
+new product that would, as per estimations, increase the workload for the TYPE_THREE
+case 5 times when released to its 100% potential.
+They are asking you when would the operational team be able to handle the extra workload
+with the same standard of processing as we had in January 2022.
+You know that:
+● A new hire would take 4 months before being fully onboarded from the time of the
+hire.
+● Hiring, on average, takes 1 month.
+What would you suggest? Feel free to take a creative approach. It’s important not to come
+up with a concrete date but rather to explain your thought process around how would you
+approach this problem and how would you negotiate with the growth team.
+What kind of concerns would you have? What kind of extra information would you require
+from the growth team prior to the new product launch?
